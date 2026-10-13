@@ -20,4 +20,6 @@ main { max-width: 640px; margin: 32px auto; padding: 0 24px; }
 .button:hover { background: var(--brand-dark); }
 .button.secondary { background: transparent; color: var(--text); border: 1px solid var(--border); }
 .price { font-size: 28px; font-weight: 700; }
+.annual-price { margin-top: -16px; color: var(--muted); font-size: 16px; font-weight: 600; }
+.annual-price small { font-size: 14px; font-weight: 400; }
 .done { text-decoration: line-through; color: var(--muted); }
