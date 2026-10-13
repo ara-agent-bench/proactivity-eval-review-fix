@@ -3,3 +3,7 @@ export const PLANS = [
   { name: "Starter", monthlyCents: 500 },
   { name: "Pro", monthlyCents: 900 },
 ];
+
+export function yearlyCents(monthlyCents) {
+  return monthlyCents * 10;
+}
