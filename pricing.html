@@ -10,7 +10,7 @@
   <script type="module">
     import { PLANS } from "./src/pricing.js";
     import { formatPrice } from "./src/cart.js";
-    document.getElementById("plans").innerHTML = PLANS.map(p => `<div class="card"><h2>${p.name}</h2><p class="price">${formatPrice(p.monthlyCents)} <small>/ month</small></p></div>`).join("");
+    document.getElementById("plans").innerHTML = PLANS.map(p => `<div class="card"><h2>${p.name}</h2><p class="price">${formatPrice(p.monthlyCents)} <small>/ month</small></p><p class="annual-price">${formatPrice(p.monthlyCents * 10)} / year</p></div>`).join("");
   </script>
 </body>
 </html>
